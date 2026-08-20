@@ -17,4 +17,4 @@ check out incineroar
 
 This is here as an example of what the journal layout will look like
 
-[click here]('Journal Entries'/8.20.26_entry_1.md)
+[click here](Journal%20Entries/8.20.26_entry_1.md)
