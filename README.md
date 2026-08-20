@@ -16,3 +16,5 @@ check out incineroar
 ### Journal example
 
 This is here as an example of what the journal layout will look like
+
+[click here](Journal Entries/8.20.26 entry 1.md)
