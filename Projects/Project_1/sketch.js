@@ -132,12 +132,12 @@ function currentHand() {
   //current hand score
   noStroke();
   fill(30, 105, 37);
-  rect(700, 450, 200, 75); //this is here so the numbers dont stack
+  rect(width-300, 450, 200, 75); //this is here so the numbers dont stack
   fill(0);
   textSize(30);
-  text("Current Hand", 800, 475);
+  text("Current Hand", width-200, 475);
   textSize(20);
-  text(`${countHand()}`, 800, 525);
+  text(`${countHand()}`, width-200, 525);
 }
 
 //Total Score
