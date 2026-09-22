@@ -18,22 +18,22 @@ async function setup() {
 
   //button setup
   begin = createButton("Begin");
-  begin.position(width/2 - 25,620);
+  begin.position(width/2 - 25, height/2 + 200);
   
   stay = createButton("Stay");
-  stay.position(width/2 - 100, 670);
+  stay.position(width/2 - 100, height/2 + 150);
   stay.hide();
 
   hit = createButton("Hit");
-  hit.position(width/2 + 100, 670);
+  hit.position(width/2 + 100, height/2 + 150);
   hit.hide();
 
   newRound = createButton("New Round");
-  newRound.position(width/2 - 50, 720);
+  newRound.position(width/2 - 50, height/2 + 200);
   newRound.hide();
 
   resetGame = createButton("New Game");
-  resetGame.position(width/2 - 50, 670);
+  resetGame.position(width/2 - 50, height/2 + 200);
   resetGame.hide();
   
   startScreen();
@@ -108,14 +108,17 @@ function checkWin() {
   }
   if (handTotal <= 21) {
     textSize(20);
-    text("Win", 500, 200);
+    text("Win", width/2, 200);
     roundScore = roundScore + handTotal;
     totalScore();
     hiScore();
     
     newRound.show();
   } else if (handTotal > 21) {
-    text("GAME OVER", 500, 200);
+    fill(171, 27, 17)
+    textSize(50)
+    text("GAME OVER", width/2, height/2 - 150);
+    fill(0)
     roundScore = 0;
     totalScore();
     
