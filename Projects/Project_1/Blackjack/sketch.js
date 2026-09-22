@@ -216,7 +216,7 @@ function startScreen() {
   textSize(40);
   text("Blackjack",width/2,150)
   //draw the stack of cards
-  deckStack(width/2, height/2);
+  deckStack(width/2, height/2 - 50);
 
 }
 
