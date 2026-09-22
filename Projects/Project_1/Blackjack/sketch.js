@@ -115,7 +115,10 @@ function checkWin() {
     
     newRound.show();
   } else if (handTotal > 21) {
-    text("GAME OVER", 500, 200);
+    fill(171, 27, 17)
+    textSize(50)
+    text("GAME OVER", width/2, height/2 - 150);
+    fill(0)
     roundScore = 0;
     totalScore();
     
