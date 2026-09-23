@@ -1,4 +1,4 @@
-# [Blackjack]
+# [Blackjack](https://may-moonish.github.io/MM621-2026/Projects/Project_1/Blackjack/)
 [GAME](https://may-moonish.github.io/MM621-2026/Projects/Project_1/Blackjack/)
 
 Don't break 21.
