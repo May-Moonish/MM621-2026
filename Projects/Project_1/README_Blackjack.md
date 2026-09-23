@@ -1,5 +1,8 @@
-# Blackjack
+# [Blackjack]
+[GAME](https://may-moonish.github.io/MM621-2026/Projects/Project_1/Blackjack/)
+
 Don't break 21.
+
 Stay - keep your hand and count your points. Hit - pull another card.
 
 ### Moodboard
