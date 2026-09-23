@@ -23,6 +23,7 @@ async function setup() {
   shuffleCard = await createAudio("oxidvideos-shuffling.mp3");
   win = await createAudio("win.mp3");
   loss = await createAudio("loss.mp3");
+  blackjack = await createAudio("BLACKJACK.mp3")
   
   deckBack = await loadImage("Deck_Back.png");
   deckFront = await loadImage("Blank_Card.png");
@@ -115,7 +116,7 @@ function checkWin() {
   for (let i = 0; i < hand.length; i++) {
     handTotal = handTotal + hand[i];
   }
-  if (handTotal <= 21) {
+  if (handTotal < 21) {
     textSize(20);
     text("Win", width / 2, 200);
     roundScore = roundScore + handTotal;
@@ -136,6 +137,15 @@ function checkWin() {
     stay.hide();
     hit.hide();
     resetGame.show();
+  } else if (handTotal = 21) {
+    textSize(20);
+    text("BLACKJACK!", width / 2, 200);
+    roundScore = roundScore + handTotal*2;
+    totalScore();
+    hiScore();
+    blackjack.play();
+
+    newRound.show();
   }
   return handTotal;
 }
