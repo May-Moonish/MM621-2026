@@ -3,6 +3,7 @@ Don't break 21.
 Stay - keep your hand and count your points. Hit - pull another card.
 
 Moodboard
+![casino moodboard]([https://archives.bulbagarden.net/media/upload/a/af/0727Incineroar.png](https://raw.githubusercontent.com/May-Moonish/MM621-2026/refs/heads/main/Projects/Project_1/assets/621%20randomizer%20moodboard.png))
 
 
 Wireframe
