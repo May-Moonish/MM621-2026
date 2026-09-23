@@ -21,11 +21,11 @@ async function setup() {
   begin.position(width/2 - 25, height/2 + 200);
   
   stay = createButton("Stay");
-  stay.position(width/2 - 100, height/2 + 150);
+  stay.position(width/2 - 100, height/2 + 175);
   stay.hide();
 
   hit = createButton("Hit");
-  hit.position(width/2 + 100, height/2 + 150);
+  hit.position(width/2 + 100, height/2 + 175);
   hit.hide();
 
   newRound = createButton("New Round");
