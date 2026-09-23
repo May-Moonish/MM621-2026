@@ -219,7 +219,7 @@ function gameSetup() {
   background(30, 105, 37);
   deckStack(200, 325);
   textSize(15)
-  text("Stay - keep your hand and count your points. Hit - pull another card.", width/2,height - 150)
+  text("Stay - keep your hand and count your points. Hit - pull another card. Blackjack scores Double.", width/2,height - 150)
   currentHand();
   totalScore();
   hiScore();
