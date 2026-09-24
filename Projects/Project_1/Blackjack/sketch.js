@@ -253,6 +253,7 @@ function gameSetup() {
   totalScore();
   hiScore();
   showAudio();
+  music.play():
 
   begin.hide();
   stay.show();
