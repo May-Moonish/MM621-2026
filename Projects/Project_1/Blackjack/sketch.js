@@ -223,6 +223,7 @@ function newGame() {
   currentHand();
   totalScore();
   hiScore();
+  showAudio();
   start = 450;
   hand = [];
   currentHand();
@@ -238,6 +239,7 @@ function reset() {
   newGame();
   totalScore();
   hiScore();
+  showAudio();
 
   resetGame.hide();
   stay.show();
