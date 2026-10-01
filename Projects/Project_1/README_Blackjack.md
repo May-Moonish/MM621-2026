@@ -10,3 +10,7 @@ Stay - keep your hand and count your points. Hit - pull another card.
 
 
 ### Wireframe
+![initial wireframing](https://raw.githubusercontent.com/May-Moonish/MM621-2026/refs/heads/main/Projects/Project_1/assets/IMG_4005.jpeg)
+
+![secondary wirframing](https://raw.githubusercontent.com/May-Moonish/MM621-2026/refs/heads/main/Projects/Project_1/assets/IMG_4006.jpeg)
+
