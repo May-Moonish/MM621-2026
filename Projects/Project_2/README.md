@@ -1,4 +1,6 @@
 # Project 2
+Try it out [HERE](https://may-moonish.github.io/MM621-2026/Projects/Project_2/desktop/) 
+
 This project was made using the Bezi Jam API. 
 
 Some information- like the cover art- was unable to be loaded into the project due to query protection, but otherwise a majority of the information was loadable.
